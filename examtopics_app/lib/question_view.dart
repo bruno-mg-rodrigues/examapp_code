@@ -62,7 +62,8 @@ class _QuestionViewState extends State<QuestionView> {
         ],
       ),
 
-      body: SingleChildScrollView(
+      body: SelectionArea(
+        child: SingleChildScrollView(
         padding: const EdgeInsets.all(16.0),
 
         child: Column(
@@ -210,6 +211,7 @@ class _QuestionViewState extends State<QuestionView> {
               ),
           ],
         ),
+      ),
       ),
     );
   }
